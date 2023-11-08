@@ -25,7 +25,13 @@ public class ClsFincaNov07 {
         private String str_contacto;
         private String str_cargo;
 
-    public ClsFincaNov07(String str_nit, String str_nombre, String str_ubicacion, String str_prop, String str_correo, String str_cod, String str_nombre2, String str_produccion, String str_descripcion, String str_cod2, String str_nombre3, String str_contacto, String str_cargo) {
+    public ClsFincaNov07(String str_nit, String str_nombre, String 
+            str_ubicacion, String str_prop, String str_correo,
+            String str_cod, String str_nombre2, String str_produccion,
+            String str_descripcion, String str_cod2, String
+            str_nombre3, String str_contacto, String str_cargo) {
+        
+        
         this.str_nit = str_nit;
         this.str_nombre = str_nombre;
         this.str_ubicacion = str_ubicacion;
@@ -146,7 +152,13 @@ public class ClsFincaNov07 {
     }
         
         
-        
+       public static void guardar(String str_nit, String str_nombre, 
+               String str_ubicacion, String str_prop, String str_correo,
+               String str_cod, String str_nombre2, String str_produccion, 
+               String str_descripcion, String str_cod2, String 
+               str_nombre3, String str_contacto, String str_cargo){
+       
+       }
         
     
 }

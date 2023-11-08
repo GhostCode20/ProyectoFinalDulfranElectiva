@@ -41,7 +41,7 @@ public class Frm_Shary1 extends javax.swing.JFrame {
         btn_guardar = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         txt_codigo1 = new javax.swing.JTextField();
-        txt_nombre1 = new javax.swing.JTextField();
+        txt_nombre2 = new javax.swing.JTextField();
         txt_descripcion = new javax.swing.JTextField();
         txt_produccion = new javax.swing.JTextField();
         txt_codtrabajo = new javax.swing.JTextField();
@@ -51,7 +51,7 @@ public class Frm_Shary1 extends javax.swing.JFrame {
         btn_registrar2 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         txt_codigo2 = new javax.swing.JTextField();
-        txt_nombre2 = new javax.swing.JTextField();
+        txt_nombre3 = new javax.swing.JTextField();
         txt_contacto = new javax.swing.JTextField();
         txt_nitfinca = new javax.swing.JTextField();
         txt_cargo = new javax.swing.JTextField();
@@ -189,7 +189,7 @@ public class Frm_Shary1 extends javax.swing.JFrame {
             }
         });
 
-        txt_nombre1.setText("Nombre");
+        txt_nombre2.setText("Nombre");
 
         txt_descripcion.setText("Descripción");
         txt_descripcion.addActionListener(new java.awt.event.ActionListener() {
@@ -208,6 +208,11 @@ public class Frm_Shary1 extends javax.swing.JFrame {
 
         btn_guardar1.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
         btn_guardar1.setText("Guardar");
+        btn_guardar1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_guardar1ActionPerformed(evt);
+            }
+        });
 
         btn_actualizar1.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
         btn_actualizar1.setText("Actualizar");
@@ -224,7 +229,7 @@ public class Frm_Shary1 extends javax.swing.JFrame {
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(42, 42, 42)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(txt_nombre1, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt_nombre2, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txt_codigo1, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txt_descripcion, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txt_codtrabajo, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -251,7 +256,7 @@ public class Frm_Shary1 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txt_codigo1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txt_nombre1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txt_nombre2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txt_descripcion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -275,7 +280,7 @@ public class Frm_Shary1 extends javax.swing.JFrame {
             }
         });
 
-        txt_nombre2.setText("Nombre");
+        txt_nombre3.setText("Nombre");
 
         txt_contacto.setText("Contacto");
         txt_contacto.addActionListener(new java.awt.event.ActionListener() {
@@ -300,6 +305,11 @@ public class Frm_Shary1 extends javax.swing.JFrame {
 
         btn_guardar2.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
         btn_guardar2.setText("Guardar");
+        btn_guardar2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_guardar2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -310,7 +320,7 @@ public class Frm_Shary1 extends javax.swing.JFrame {
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(34, 34, 34)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(txt_nombre2, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt_nombre3, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txt_codigo2, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txt_contacto, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txt_nitfinca, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -335,7 +345,7 @@ public class Frm_Shary1 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txt_codigo2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txt_nombre2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txt_nombre3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txt_contacto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -408,20 +418,44 @@ public class Frm_Shary1 extends javax.swing.JFrame {
 
     private void btn_guardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_guardarActionPerformed
  // Obtén los valores ingresados en los campos de texto
-    String codigo = txt_nit.getText();
+    String str_nit = txt_nit.getText();
     String nombre = txt_nombre.getText();
     String ubicacion = txt_ubi.getText();
-    String propietario = txt_prop.getText();
+    String str_prop = txt_prop.getText();
     String correo = txt_correo.getText();
 
-    // Llama a la función para guardar los datos
-        javaapplicationfincashary.gua
+    ClsFincaNov07.guardar(str_nit, nombre, ubicacion, str_nit, correo, str_nit, nombre, str_nit, ubicacion, str_nit, nombre, str_nit, str_nit);
         
         txt_nombre.setText("");
         txt_ubi.setText("");
         txt_prop.setText("");
         txt_correo.setText("");
     }//GEN-LAST:event_btn_guardarActionPerformed
+
+    private void btn_guardar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_guardar1ActionPerformed
+        // TODO add your handling code here:
+         String codigo = txt_codigo.getText();
+         String nombre2 = txt_nombre3.getText();
+          String produccion = txt_produccion.getText();
+           String descripcion = txt_descripcion.getText();
+           
+        ClsFincaNov07.guardar(nombre2, nombre2, produccion, descripcion, nombre2, codigo2, nombre2, produccion, descripcion, codigo2, nombre2, produccion, nombre2);
+           
+           
+         
+         
+    }//GEN-LAST:event_btn_guardar1ActionPerformed
+
+    private void btn_guardar2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_guardar2ActionPerformed
+        // TODO add your handling code here:
+         String codigo2 = txt_codigo2.getText();
+         String nombre3 = txt_nombre3.getText();
+         String contacto = txt_contacto.getText();
+         String cargo = txt_cargo.getText();
+         
+         ClsFincaNov07.guardar(cargo, nombre3, cargo, cargo, cargo, cargo, nombre3, contacto, codigo2, cargo, nombre3, contacto, cargo);
+         
+    }//GEN-LAST:event_btn_guardar2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -453,7 +487,7 @@ public class Frm_Shary1 extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Frm_FincaShary().setVisible(true);
+                new Frm_Shary1().setVisible(true);
             }
         });
     }
@@ -488,8 +522,8 @@ public class Frm_Shary1 extends javax.swing.JFrame {
     private javax.swing.JTextField txt_nit;
     private javax.swing.JTextField txt_nitfinca;
     private javax.swing.JTextField txt_nombre;
-    private javax.swing.JTextField txt_nombre1;
     private javax.swing.JTextField txt_nombre2;
+    private javax.swing.JTextField txt_nombre3;
     private javax.swing.JTextField txt_produccion;
     private javax.swing.JTextField txt_prop;
     private javax.swing.JTextField txt_ubi;
